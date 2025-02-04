@@ -20,22 +20,28 @@
 // //senhas -> index -> indice -> posiçao
 // // index
 
-var listaNome = ["iasmym", "camila" ]
+var listaNome = ["iasmym", "joao v", "agatha",];
 // substituir valor
 // listaNome[0] = "joao"
+// console.log(listaNome)
+// listaNome.unshift("simon")
 // console.log(listaNome)
 
 //nomeArray.push(item) - adiciona um item ao final do array
 listaNome.push("luna")
 console.log(listaNome)
 
+listaNome.unshift("simon")
+console.log(listaNome)
+
 //nomearray.pop - remove o ultimo item do array
-listaNome.pop(simon);
+listaNome.pop("");
 // ["beatrz", "nome2", "nome tal"]
 console.log(listaNome)
 
+listaNome.pop("")
 //unshift - adiciona item no inicio do array
-listaNome.unshift("lauana");
+listaNome.push("luna");
 console.log(listaNome)
 
 //shift - remove o primeiro elemento do array e retorna o elemento
