@@ -25,4 +25,19 @@ var listaNome = ["beatriz", "tabs" ]
 listaNome[0] = "joao"
 console.log(listaNome)
 
+//nomeArray.push(item) - adiciona um item ao final do array
+listaNome.push("marcilene")
+console.log(listaNome)
+//nomearray.pop - remove o ultimo item do array
+listaNome.pop();
+console.log(listaNome)
+//unshift - adiciona item no inicio do array
+listaNome.unshift("lauana");
+console.log(listaNome)
+//shift - remove o primeiro elemento do array e retorna o elemento
+listaNome.shift();
+console.log(listaNome)
+
+
+
 
